@@ -1,0 +1,85 @@
+/* ////////////// */
+/* HERO IMAGE */
+/* ////////////// */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--nav-height);
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ////////////// */
+/* MAIN CONTENT */
+/* ////////////// */
+
+.main-container h1 {
+  font-size: 4rem;
+}
+
+.main-container p {
+  font-size: 1.5rem;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#learn-more {
+  width: 16rem;
+  font-size: 2rem;
+  background-color: #e6d046;
+  border: none;
+}
+
+#learn-more:hover {
+  transform: scale(1.1);
+  transition: 0.3s all ease-out;
+}
+
+
+/* ////////////// */
+/* ! MEDIA QUERIES DESKTOP UP */
+/* ////////////// */
+
+@media (min-width: 800px) {
+
+  /* /////////// */
+  /* MAIN CONTENT */
+  /* /////////// */
+  .main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 8rem;
+  }
+
+  .img-container,
+  .left-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-content * {
+    margin: 3rem 0;
+  }
+
+  .left-content h1 {
+    font-size: 6rem;
+  }
+
+  .left-content p {
+    font-size: 1.5rem;
+    width: 75%;
+  }
+}
