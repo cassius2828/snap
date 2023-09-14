@@ -22,7 +22,7 @@ const DropMenu = ({ topic, list, icon }) => {
   const toggleMenu = () => {
     if (clientWidth < 800) setShowList(true);
 
-    setShowList(!showList);
+    setShowList(current => !current);
   };
   const mouseEnter = () => {
     if (clientWidth > 800) setShowList(true);

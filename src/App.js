@@ -20,12 +20,9 @@ const [loginSuccess, setLoginSuccess] = useState(false);
 
   return (
     <div className="App">
-      {/* <Nav toggleHam={toggleHam} />
+      <Nav toggleHam={toggleHam} />
       <Main />
-      <Footer /> */}
-   <LoginModal
-   
-   />
+      <Footer />
     </div>
   );
 }

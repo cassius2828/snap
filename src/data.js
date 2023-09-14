@@ -11,10 +11,10 @@ const data = [
     topic: "Features",
     list: ["ToDo List", "Calendar", "Reminders", "Planning"],
     icon: [
-      <FontAwesomeIcon style={{ color: "#3cec1b" }} icon={faList} />,
-      <FontAwesomeIcon style={{ color: "#672AEA" }} icon={faCalendar} />,
-      <FontAwesomeIcon style={{ color: "#De2b2b" }} icon={faBell} />,
-      <FontAwesomeIcon style={{ color: "#Ecdd1b" }} icon={faClock} />,
+      <FontAwesomeIcon style={{ color: "#e3ce39" }} icon={faList} />,
+      <FontAwesomeIcon style={{ color: "#8e4cb6" }} icon={faCalendar} />,
+      <FontAwesomeIcon style={{ color: "#4cb1da" }} icon={faBell} />,
+      <FontAwesomeIcon style={{ color: "#726cee" }} icon={faClock} />,
     ],
   },
   {

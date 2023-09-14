@@ -73,7 +73,7 @@
 
 .list li:hover,
 .listPlus li:hover {
-  color: rgb(215, 215, 86);
+  color: #eccf1b;
   cursor: pointer;
 }
 
@@ -104,17 +104,20 @@
   margin: 1rem 0;
   border: none;
   background-color: transparent;
+  width: 100%;
+  padding: 0rem 2rem;
+
 }
 
 .slide-btn-container button:hover {
-  color: rgb(208, 208, 64);
-  border: solid 1px gray;
+  color: #e3ce39;
+  border: solid 1px #e3ce39;
   transition: 0.1s all ease-out;
 }
 
 .slide-btn-container button.active {
-  color: rgb(208, 208, 64);
-  border: solid 1px gray;
+  color: #e3ce39;
+  border: solid 1px #e3ce39;
 }
 /* ////////////// */
 /* HAMBURGER */
@@ -215,14 +218,14 @@
   }
 
   .desktop-btn-container button:hover {
-    color: rgb(208, 208, 64);
-    border: solid 1px rgb(208, 208, 64);
+    color: #eccf1b;
+    border: solid 1px #eccf1b;
     transition: 0.1s all ease-out;
   }
 
   .desktop-btn-container button.active {
-    color: rgb(208, 208, 64);
-    border: solid 1px rgb(208, 208, 64);
+    color: #eccf1b;
+    border: solid 1px #eccf1b;
   }
  /* /////////// */
  /* DROP CONTAINER  */

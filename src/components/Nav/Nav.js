@@ -2,6 +2,7 @@ import React from "react";
 import data from "../../data";
 import DropMenu from "../DropMenu/DropMenu";
 import './Nav.css'
+import {Link} from "react-router-dom";
 
 export const Nav = ({ toggleHam }) => {
   return (
@@ -61,8 +62,9 @@ export const Nav = ({ toggleHam }) => {
           );
         })}
         <div className="slide-btn-container">
-          <button className="br-pill">Login</button>
-          <button className="br-pill">Sign Up</button>
+            {/* need to learn how to properly navigate SPA with redux, react, router, Links, etc */}
+        <Link to='login'><button className="br-pill">Login</button></Link>  
+         <Link to='login'> <button className="br-pill">Sign Up</button></Link>
         </div>
       </div>
     </>
